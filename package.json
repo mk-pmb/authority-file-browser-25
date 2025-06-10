@@ -1,0 +1,30 @@
+{ "name": "authority-file-browser-25",
+  "version": "0.0.0",
+  "description": "A small, pluggable web app for searching various authority files, with extensive support for the Gemeinsame Normdatei (GND; Integrated Authority File of the German National Library).",
+  "keywords": [],
+
+  "author": "Heidelberg University Library (https://www.ub.uni-heidelberg.de/)",
+  "homepage": "https://github.com/UB-Heidelberg/authority-file-browser-25/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UB-Heidelberg/authority-file-browser-25.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UB-Heidelberg/authority-file-browser-25/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "MIT",
+
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
